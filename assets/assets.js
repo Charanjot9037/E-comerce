@@ -1,10 +1,10 @@
 import gs_logo from "./gs_logo.jpg"
 import happy_store from "./happy_store.webp"
 import upload_area from "./upload_area.svg"
-import hero_model_img from "./hero_model_img.png"
-import hero_product_img1 from "./hero_product_img1.png"
+import hero_model_img from "./man.png"
+import hero_product_img1 from "./chelsi.png"
 import hero_product_img2 from "./hero_product_img2.png"
-import product_img1 from "./product_img1.png"
+import product_img1 from "./bluesuit1.webp"
 import product_img2 from "./product_img2.png"
 import product_img3 from "./product_img3.png"
 import product_img4 from "./product_img4.png"
@@ -28,7 +28,33 @@ export const assets = {
     product_img7, product_img8, product_img9, product_img10, product_img11, product_img12,
 }
 
-export const categories = ["Headphones", "Speakers", "Watch", "Earbuds", "Mouse", "Decoration"];
+export const categories = [
+  // Men
+  "Men's Casual Wear",
+  "Men's Party Wear",
+  "Men's Office Wear",
+  "Men's Accessories",
+  "Men's Footwear",
+
+  // Women
+  "Women's Casual Wear",
+  "Women's Party Wear",
+  "Women's Office Wear",
+  "Women's Accessories",
+  "Women's Footwear",
+
+  // Kids
+  "Kids' Clothing",
+  "Kids' Footwear",
+  "Kids' Accessories",
+
+  // Other / Lifestyle
+  "Watches",
+  "Bags & Wallets",
+  "Jewellery",
+  "Home Decor",
+  "Gadgets & Electronics"
+];
 
 export const dummyRatingsData = [
     { id: "rat_1", rating: 4.2, review: "I was a bit skeptical at first, but this product turned out to be even better than I imagined. The quality feels premium, it's easy to use, and it delivers exactly what was promised. I've already recommended it to friends and will definitely purchase again in the future.", user: { name: 'Kristin Watson', image: profile_pic1 }, productId: "prod_1", createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', updatedAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', product: { name: 'Bluetooth Speakers', category:'Electronics', id:'prod_1'} },
